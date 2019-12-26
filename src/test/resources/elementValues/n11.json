@@ -1,0 +1,101 @@
+[
+  {
+    "key": "n11GirisButonu",
+    "value": "a[class='btnSignIn']",
+    "type": "css"
+  },
+  {
+    "key": "LoginControl",
+    "value": "//a[@class='menuLink user']",
+    "type": "xpath"
+  },
+  {
+    "key": "emailGir",
+    "value": "email",
+    "type": "id"
+  },
+  {
+    "key": "passwordGir",
+    "value": "password",
+    "type": "id"
+  },
+
+  {
+    "key": "bilgisayarAra",
+    "value": "searchData",
+    "type": "id"
+  },
+  {
+    "key": "bilgisayarArat",
+    "type": "xpath",
+    "value": "//span[@class='icon iconSearch']"
+  },
+  {
+    "key": "girisYap",
+    "type": "id",
+    "value": "loginButton"
+  },
+  {
+    "key": "2.sayfayiac",
+    "type": "css",
+    "value": "div.wrapper:nth-child(7) div.content:nth-child(3) div.container div.listingHolder:nth-child(4) div.productArea div.pagination:nth-child(8) > a:nth-child(2)"
+  },
+  {
+    "key": "2.sayfaDogrulama",
+    "type": "url",
+    "value": "https://www.n11.com/arama?q=bilgisayar&pg=2"
+  },
+  {
+    "key": "UrunSec",
+    "type": "css",
+    "value": "#view .column:nth-of-type(4) .productName"
+  },
+  {
+  "key": "urunuSepeteEkle",
+  "type": "xpath",
+  "value": "//a[@class='btn btnGrey btnAddBasket']"
+} ,
+  {
+    "key": "degerTut",
+    "type": "xpath",
+    "value": "//*[@id='contentProDetail']/div/div[4]/div[2]/div[3]/div[2]/div/div[1]/div/ins/text()"
+  }
+,
+  {
+    "key": "tutarKarsılastırma",
+    "type": "xpath",
+    "value": "//*[@id='contentProDetail']/div/div[4]/div[2]/div[3]/div[2]/div/div[1]/div/ins/text()"
+  },
+  {
+    "key": "sepeteGit",
+    "type": "xpath",
+    "value": "//i[@class='icon iconBasket']"
+  },
+  {
+    "key": "UrunArttır",
+    "type": "css",
+    "value": "div.wrapper.boxWrapper:nth-child(4) div.content:nth-child(2) div.container div.checkoutContainer:nth-child(1) div.left div.cartUpdatePartContainer:nth-child(1) section.basket.box.box--medium:nth-child(2) table.productGroup:nth-child(5) tr.prod:nth-child(1) td.prodPrice div.spinnerField:nth-child(1) div.spinnerFieldContainer > span.spinnerUp.spinnerArrow"
+  },
+  {
+    "key": "SepettekiUrunValue2mi",
+    "type": "css",
+    "value": "div[class='spinnerField '] input[value='2']"
+  },
+  {
+    "key": "Sepettekilerisil",
+    "type": "xpath",
+    "value": " //span[@class='removeProd svgIcon svgIcon_trash']"
+  },
+  {
+    "key": "SepettekiFiyat",
+    "type": "css",
+    "value": ".priceArea > span"
+  },
+  {
+    "key": "İlkFiyat",
+    "type": "css",
+    "value": ".newPrice > ins"
+  }
+
+]
+
